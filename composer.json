@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/symfony-monolog-bundle",
+    "description": "Tyhp type definitions for symfony/monolog-bundle 4.0.2.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "4.0.2",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/symfony-monolog-bundle-impl": "~4.0.2.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/symfony-monolog-bundle-impl"
+        }
+    }
+}
